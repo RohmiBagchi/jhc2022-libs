@@ -5,3 +5,4 @@ def call(add){
          def varTwo = params.varTwo as int
          def result = varOne + varTwo
                 echo "Result is $result"
+            }
