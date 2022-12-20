@@ -1,6 +1,5 @@
-def call(result){
-def varOne = params.varOne as int
-def varTwo = params.varTwo as int
-def result = varOne + varTwo
-   echo "Result is ${result}"
-
+int a = 10;
+  stage('arithmetic stage') {
+    int b = params.Value;
+    c = a + b;
+    echo "${c}
