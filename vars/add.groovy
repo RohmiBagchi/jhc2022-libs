@@ -3,6 +3,6 @@ def call(result){
    string defaultValue: 20, description: 'Enter number two', name: 'varTwo'
          def varOne = params.varOne as int
          def varTwo = params.varTwo as int
-         def pass = varOne + varTwo
-                echo "Result is $pass"
+         def result = varOne + varTwo
+                echo "Result is $result"
    }
