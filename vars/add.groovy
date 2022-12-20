@@ -1,8 +1,3 @@
-def call(result){
-   string defaultValue: '10', description: 'Enter number one', name: 'varOne'
-   string defaultValue: '20', description: 'Enter number two', name: 'varTwo
-         def varOne = params.varOne as int
-         def varTwo = params.varTwo as int
-         def result = varOne + varTwo
-                echo "Result is ${result}
-   }
+def x = 10
+def y = 25
+echo 'Sum of x + y = ' + (x + y)
