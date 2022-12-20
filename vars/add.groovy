@@ -1,2 +1,6 @@
 def call(result){
-  echo "10 $result 20"
+def varOne = params.varOne as int
+def varTwo = params.varTwo as int
+def result = varOne + varTwo
+   echo "Result is ${result}"
+
