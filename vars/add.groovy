@@ -1,6 +1,4 @@
-def call(add){
-         def varOne = 10
-         def varTwo = 20
-         def result = varOne + varTwo
-                echo "Result is $result"
-            }
+def call(x,y){ 
+ def result = x + y
+ echo "Result is $result"
+}
